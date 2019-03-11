@@ -141,7 +141,7 @@ else:
         """
         def get_tag(self):
             impl_tag, abi_tag, plat_tag = super().get_tag()
-            return "py35", abi_tag, plat_tag
+            return "py36", abi_tag, plat_tag
 
 
 if __name__ == "__main__":
@@ -171,10 +171,7 @@ if __name__ == "__main__":
               "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
               "Operating System :: Microsoft :: Windows",
               "Programming Language :: C",
-              "Programming Language :: Python :: 3",
-              "Programming Language :: Python :: 3.3",
-              "Programming Language :: Python :: 3.4",
-              "Programming Language :: Python :: 3.5",
+              "Programming Language :: Python :: 3.6",
               "Programming Language :: Python :: Implementation :: CPython",
               "Topic :: Software Development",
               "Topic :: Software Development :: Libraries",
